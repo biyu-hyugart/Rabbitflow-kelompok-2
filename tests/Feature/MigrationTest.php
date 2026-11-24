@@ -10,7 +10,6 @@ class MigrationTest extends TestCase
 {
     use RefreshDatabase;
 
-    
     public function test_delapan_tabel_utama_tersedia(): void
     {
         $tables = [

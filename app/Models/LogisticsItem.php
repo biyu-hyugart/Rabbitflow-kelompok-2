@@ -10,6 +10,8 @@ class LogisticsItem extends Model
 {
     use HasFactory;
 
+    public const STOK_MENIPIS = 5;
+
     protected $fillable = [
         'category_id',
         'nama_item',
